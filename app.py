@@ -327,3 +327,4 @@ st.dataframe(
     metric_summary,
     use_container_width=True
 )
+
