@@ -194,6 +194,7 @@ notebooks/agricultural_price_forecasting.ipynb
 - 예측 구간 확장 및 다중 시점 forecasting
 - 운영 환경 기준의 자동 배치 예측 파이프라인 구축
 
-*마지막으로 좋은 강의로 학습과 프로젝트 제작에 도움을 주신 Liam 강사님께 감사드립니다*
+
+**마지막으로 좋은 강의로 학습과 프로젝트 제작에 도움을 주신 Liam 강사님께 감사드립니다**
 ---
 
