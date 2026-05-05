@@ -2,13 +2,12 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib.font_manager as fm
-import os
 
 # =========================
-# Matplotlib Korean Font for Streamlit Cloud
+# Matplotlib Setting
 # =========================
-plt.rcParams['font.family'] = 'NanumGothic'
+# 그래프 안의 한글을 영어로 바꾸었기 때문에 한글 폰트 설정은 제거했습니다.
+# 마이너스 기호 깨짐만 방지합니다.
 plt.rcParams['axes.unicode_minus'] = False
 
 # =========================
@@ -190,7 +189,7 @@ def plot_predictions_over_time(df, vegetables, rolling_mean_window):
         ax.plot(
             df.index,
             rolling_mean,
-            label=f'{veg} ({rolling_mean_window}일 이동평균)',
+            label=f'{veg} ({rolling_mean_window}-day Rolling Mean)',
             linestyle='--',
             linewidth=2,
             alpha=0.75,
@@ -198,7 +197,7 @@ def plot_predictions_over_time(df, vegetables, rolling_mean_window):
         )
 
     ax.set_title(
-        '품목별 가격 추이',
+        'Price Trend by Product',
         fontsize=17,
         fontweight='bold',
         color='#2F3E2F',
@@ -335,4 +334,3 @@ st.dataframe(
     metric_summary,
     use_container_width=True
 )
-
