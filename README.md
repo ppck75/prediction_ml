@@ -1,7 +1,18 @@
 # 농산물 가격 예측 ML 프로젝트
 
-농산물 유통 데이터를 활용해 7개의 주요 품목의 **미래 가격을 예측하는 머신러닝 모델**을 구축하고, 예측 결과를 **Streamlit 대시보드**로 배포한 데이터 사이언스 프로젝트입니다.  
-EDA, 시계열 피처 엔지니어링, Prophet 및 ML/앙상블 모델 비교, SHAP 해석, Streamlit 배포까지 연결해 실제 데이터 제품 개발 흐름에 가깝게 구성했습니다.
+농산물 유통 데이터를 활용해 주요 품목 7개 종의 **미래 가격을 예측하는 머신러닝 모델**을 구축하고, 예측 결과를 **Streamlit 대시보드**로 배포한 데이터 사이언스 프로젝트입니다.  
+EDA, 시계열 피처 엔지니어링, Prophet 및 ML/앙상블 모델 비교, SHAP 해석, Streamlit 배포까지 연결하여 구성했습니다.
+
+
+## What I Demonstrated In This Project
+
+- 실제 공공/유통 데이터를 활용한 문제 정의 능력
+- 시계열 데이터 EDA 및 전처리 역량
+- ML 회귀/앙상블 모델 실험 및 비교 역량
+- SHAP 기반 모델 해석 역량
+- Streamlit 기반 데이터 제품화 경험
+- 비즈니스 관점에서 분석 결과를 해석하는 능력
+
 
 ## 1. Project Overview
 
@@ -48,11 +59,11 @@ EDA, 시계열 피처 엔지니어링, Prophet 및 ML/앙상블 모델 비교, S
 - 날짜 기반/시차 기반 feature engineering 설계
 - Prophet과 머신러닝 회귀 모델 성능 비교
 - 후처리 및 앙상블을 통한 예측 성능 개선
-- 결과를 Streamlit으로 시각화하여 비개발자도 확인 가능한 형태로 배포
+- 결과를 Streamlit으로 시각화하여 대시보드 형태로 배포 (url: https://prediction-ml-ppck75.streamlit.app/)
 
 ## 4. Project Workflow
 
-*본 프로젝트는 메타코드 Liam 강사님의 kaggle_실전 머신러닝 강의를 기반으로 구성했습니다.*
+*본 프로젝트는 메타코드 Liam 강사님의 kaggle_실전 머신러닝 강의를 참고하여 구성했습니다.*
 
 ### 1) EDA
 - 날짜 누락 여부 확인 및 시계열 정렬
@@ -164,9 +175,6 @@ pip install -r notebooks/requirements.txt
 notebooks/agricultural_price_forecasting.ipynb
 ```
 
-
-위 구조는 포트폴리오용으로 권장하는 예시이며, 실제 레포 구성에 맞춰 수정해 사용할 수 있습니다.
-
 ## 10. Key Takeaways
 
 - 시계열 문제에서는 단순 회귀보다 **시간 순서와 누수(leakage) 방지**가 훨씬 중요하다는 점을 학습했습니다.
@@ -174,16 +182,8 @@ notebooks/agricultural_price_forecasting.ipynb
 - 도메인 지식이 반영된 후처리가 실제 예측 성능 개선에 기여했습니다.
 - 분석 결과를 Streamlit으로 배포하면서, 기술 구현뿐 아니라 **결과 전달 방식**도 프로젝트 완성도에 중요하다는 점을 경험했습니다.
 
-## 11. What I Demonstrated In This Project
 
-- 실제 공공/유통 데이터를 활용한 문제 정의 능력
-- 시계열 데이터 EDA 및 전처리 역량
-- ML 회귀/앙상블 모델 실험 및 비교 역량
-- SHAP 기반 모델 해석 역량
-- Streamlit 기반 데이터 제품화 경험
-- 비즈니스 관점에서 분석 결과를 해석하는 능력
-
-## 12. Future Improvements
+## 11. Future Improvements
 
 - 날씨, 기온, 강수량, 명절 수요 등 외부 변수 추가
 - 품목별 개별 최적화 모델 운영
