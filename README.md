@@ -194,7 +194,9 @@ notebooks/agricultural_price_forecasting.ipynb
 ## 12. Reference  
 
 Liam 강사 / kaggle_실전_머신러닝_강의자료(메타코드)
+
+*좋은 강의로 학습과 프로젝트 제작에 도움을 주신 Liam 강사님께 감사드립니다*
+
 ---
-  
-**마지막으로 좋은 강의로 학습과 프로젝트 제작에 도움을 주신 Liam 강사님께 감사드립니다**
+
 
