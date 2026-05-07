@@ -15,7 +15,7 @@ EDA, 시계열 피처 엔지니어링, Prophet 및 ML/앙상블 모델 비교, S
 - 비즈니스 관점에서 분석 결과를 해석하는 능력
 
 
-![웹사이트 화면 예시](./images/website_screenshot.png)
+![웹사이트 화면 예시](./images/streamlit-dashboard.png)
 
 *웹사이트 화면 예시 (url: https://prediction-ml-ppck75.streamlit.app/)*
 
